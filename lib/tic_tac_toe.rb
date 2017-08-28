@@ -122,7 +122,6 @@ def winner(board)
 end
 
 def play(board)
-  input = gets
   while over?(board) == false
     turn(board)
   end
