@@ -125,4 +125,6 @@ def play(board)
   while over?(board) == false
     turn(board)
   end
+  if won?(board) == true
+    puts "Congradulations to #{won?(board)}!"
 end
